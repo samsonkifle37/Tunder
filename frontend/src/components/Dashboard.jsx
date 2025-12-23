@@ -6,7 +6,7 @@ import TicketGenerator from './TicketGenerator';
 import ReferenceDraws from './ReferenceDraws';
 import './Dashboard.css';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = '/api';
 
 const Dashboard = () => {
     const [stats, setStats] = useState(null);
