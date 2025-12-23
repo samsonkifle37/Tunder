@@ -20,6 +20,7 @@ const Dashboard = () => {
             setLastUpdated(new Date().toLocaleTimeString());
         } catch (err) {
             console.error(err);
+            setStats({ error: err.message || 'Failed to load data' });
         }
     };
 
